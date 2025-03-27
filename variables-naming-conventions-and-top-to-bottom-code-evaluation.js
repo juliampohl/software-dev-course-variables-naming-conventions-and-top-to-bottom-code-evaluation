@@ -21,12 +21,16 @@ Things to reflect on:
   - Why is it important to use meaningful variable names?
   - What are the common pitfalls to avoid when naming variables?
   - How do clear variable names benefit team collaboration?
+
+  1. It's important to use meaningful variable names because it makes it easier to undertand the values and why they are being used.
+  2. common pit falls to avoid when naming variables is to make sure they aren't too vauge and unclear, instead should practice camelCase and descriptive naming.
+  3. clear variable names benefit team collaboration because anyone can undterstand the importance of a value and why it's being used.
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let person = "Alice";
+let items = 5;
+let price = 20;
+let allTogether = person + " bought " + items + " items for $" + price + ".";
 
-console.log(d);
+console.log(allTogether);
